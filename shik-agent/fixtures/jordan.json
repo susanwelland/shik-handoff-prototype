@@ -1,0 +1,36 @@
+{
+  "person": { "id": "jordan-sample", "name": "Jordan Sample", "given": "Jordan", "note": "Synthetic adult. Authorizes every share. A family helper may enter facts but holds no key." },
+  "categories": {
+    "diagnosis": "Diagnosis", "medication": "Medication", "therapy": "Therapy", "safety": "Safety plan", "history": "History",
+    "pattern": "What Jordan notices", "unknown": "Unknown", "support-learning": "Learning support", "support-work": "Workplace support"
+  },
+  "clinical": ["diagnosis", "medication", "therapy", "safety", "history"],
+  "policy": {
+    "crisis": { "label": "Crisis care team", "title": "Crisis summary, shared by a family delegate",
+      "offered": ["diagnosis", "medication", "safety", "history", "unknown"] },
+    "care": { "label": "New care team", "title": "Treatment context for a new care team",
+      "offered": ["diagnosis", "medication", "therapy", "safety", "history", "pattern", "unknown", "support-learning", "support-work"] },
+    "teacher": { "label": "Teacher or disability resource office", "title": "Requested learning supports", "offered": ["support-learning"] },
+    "employer": { "label": "Employer", "title": "Requested workplace supports", "offered": ["support-work"] }
+  },
+  "facts": [
+    { "id": "F01", "cat": "diagnosis", "text": "Generalized anxiety disorder (F41.1).", "src": { "kind": "clin", "who": "Dr. A. Example, university counseling center", "date": "2026-03-02", "doc": "intake note" } },
+    { "id": "F02", "cat": "diagnosis", "text": "Major depressive disorder, single episode, moderate (F32.1).", "src": { "kind": "clin", "who": "Dr. A. Example, university counseling center", "date": "2026-05-14", "doc": "progress note" } },
+    { "id": "F03", "cat": "medication", "text": "Sertraline 100 mg once daily. Started 2026-04-10 at 50 mg, increased 2026-06-01.", "src": { "kind": "clin", "who": "B. Example, psychiatric nurse practitioner", "date": "2026-06-01", "doc": "medication record" } },
+    { "id": "F04", "cat": "medication", "text": "Hydroxyzine 25 mg as needed for acute anxiety, at most twice a day.", "src": { "kind": "clin", "who": "B. Example, psychiatric nurse practitioner", "date": "2026-06-01", "doc": "medication record" } },
+    { "id": "F05", "cat": "therapy", "text": "Fourteen sessions of cognitive behavioral therapy, March to September 2026. Focus: avoidance and sleep. Between-session work: behavioral activation.", "src": { "kind": "clin", "who": "Dr. A. Example, university counseling center", "date": "2026-09-20", "doc": "therapy summary" } },
+    { "id": "F06", "cat": "safety", "text": "Safety plan in place since 2026-05-14. Warning signs: withdrawing, skipping meals. Coping: a walk, calling a sister. Crisis line 988. No suicidal ideation reported at the 2026-09-20 review.", "src": { "kind": "clin", "who": "Dr. A. Example, university counseling center", "date": "2026-09-20", "doc": "safety plan review" } },
+    { "id": "F07", "cat": "history", "text": "No prior psychiatric hospitalization. No known drug allergies.", "src": { "kind": "clin", "who": "Dr. A. Example, university counseling center", "date": "2026-03-02", "doc": "intake note" } },
+    { "id": "F08", "cat": "pattern", "text": "Mornings are hardest. Concentration improves after about 10 am.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F09", "cat": "pattern", "text": "Sleep drops to about five hours during exam weeks.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15", "via": "entered by Jordan's sister, confirmed by Jordan" } },
+    { "id": "F10", "cat": "pattern", "text": "Stopped sertraline for two weeks in August and restarted. Told the nurse practitioner on 2026-09-01.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F11", "cat": "unknown", "text": "Whether the counseling center has sent records to the community clinic.", "src": { "kind": "unk" } },
+    { "id": "F12", "cat": "unknown", "text": "Whether the nurse practitioner recorded the August gap in sertraline.", "src": { "kind": "unk" } },
+    { "id": "F13", "cat": "support-learning", "text": "Extended time on exams during difficult weeks, and a quiet testing room.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F14", "cat": "support-learning", "text": "Flexibility on attendance for a standing appointment on Tuesdays at 2 pm.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F15", "cat": "support-learning", "text": "One deadline at a time where possible, with written instructions.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F16", "cat": "support-work", "text": "A 10 am start rather than 8 am.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F17", "cat": "support-work", "text": "Written instructions for multi-step tasks and one short check-in per day.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } },
+    { "id": "F18", "cat": "support-work", "text": "A quiet place for a ten-minute break when needed.", "src": { "kind": "pat", "who": "Jordan", "date": "2026-10-15" } }
+  ]
+}
