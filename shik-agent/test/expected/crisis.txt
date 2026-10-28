@@ -1,0 +1,28 @@
+Crisis summary, shared by a family delegate
+Prepared by Jordan Sample for Crisis care team. Every line is from Jordan's held history, verbatim, with its source.
+
+DIAGNOSIS
+[F01] Generalized anxiety disorder (F41.1).
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-03-02, intake note)
+[F02] Major depressive disorder, single episode, moderate (F32.1).
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-05-14, progress note)
+
+MEDICATION
+[F03] Sertraline 100 mg once daily. Started 2026-04-10 at 50 mg, increased 2026-06-01.
+      (clinician-sourced: B. Example, psychiatric nurse practitioner, 2026-06-01, medication record)
+[F04] Hydroxyzine 25 mg as needed for acute anxiety, at most twice a day.
+      (clinician-sourced: B. Example, psychiatric nurse practitioner, 2026-06-01, medication record)
+
+SAFETY PLAN
+[F06] Safety plan in place since 2026-05-14. Warning signs: withdrawing, skipping meals. Coping: a walk, calling a sister. Crisis line 988. No suicidal ideation reported at the 2026-09-20 review.
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-09-20, safety plan review)
+
+HISTORY
+[F07] No prior psychiatric hospitalization. No known drug allergies.
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-03-02, intake note)
+
+UNKNOWN
+[F11] UNKNOWN: Whether the counseling center has sent records to the community clinic.
+      (unknown)
+[F12] UNKNOWN: Whether the nurse practitioner recorded the August gap in sertraline.
+    (unknown)
