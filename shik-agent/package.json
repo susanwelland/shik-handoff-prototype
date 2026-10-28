@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "SHIK v2 — the on-device daemon that embodies the agent in a Raspberry Pi body (shik-pi-01).",
+  "description": "SHIK v2 \u2014 the on-device daemon that embodies the agent in a Raspberry Pi body (shik-pi-01).",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
@@ -13,5 +13,9 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "typescript": "5.6.3"
   }
 }
