@@ -1,0 +1,24 @@
+# systemd unit for the SHIK on-device daemon.
+# Install: sudo cp shik-agent.service /etc/systemd/system/ && sudo systemctl enable --now shik-agent
+[Unit]
+Description=SHIK agent — embodies the identity kernel in this Raspberry Pi body
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/shik-agent
+ExecStart=/usr/bin/node dist/index.js
+Restart=always
+RestartSec=3
+# Identity lives on hardware you own — point at persistent storage.
+Environment=SHIK_STATE_PATH=/var/lib/shik/kernel.json
+Environment=SHIK_BODY_ID=shik-pi-01
+Environment=SHIK_BODY_NAME=the Pi on the shelf
+# The mind is a single config line — swap the model by changing this URL.
+Environment=SHIK_MIND_URL=https://your-shik-live.example/api/cognition
+# Per-device credential, never the raw model key (see HARDWARE_RPI.md §security).
+# Environment=SHIK_DEVICE_TOKEN=...
+
+[Install]
+WantedBy=multi-user.target
