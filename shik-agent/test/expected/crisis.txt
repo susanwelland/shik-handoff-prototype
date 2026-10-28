@@ -25,4 +25,4 @@ UNKNOWN
 [F11] UNKNOWN: Whether the counseling center has sent records to the community clinic.
       (unknown)
 [F12] UNKNOWN: Whether the nurse practitioner recorded the August gap in sertraline.
-    (unknown)
+      (unknown)
