@@ -1,0 +1,56 @@
+Treatment context for a new care team
+Prepared by Jordan Sample for New care team. Every line is from Jordan's held history, verbatim, with its source.
+
+DIAGNOSIS
+[F01] Generalized anxiety disorder (F41.1).
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-03-02, intake note)
+[F02] Major depressive disorder, single episode, moderate (F32.1).
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-05-14, progress note)
+
+MEDICATION
+[F03] Sertraline 100 mg once daily. Started 2026-04-10 at 50 mg, increased 2026-06-01.
+      (clinician-sourced: B. Example, psychiatric nurse practitioner, 2026-06-01, medication record)
+[F04] Hydroxyzine 25 mg as needed for acute anxiety, at most twice a day.
+      (clinician-sourced: B. Example, psychiatric nurse practitioner, 2026-06-01, medication record)
+
+THERAPY
+[F05] Fourteen sessions of cognitive behavioral therapy, March to September 2026. Focus: avoidance and sleep. Between-session work: behavioral activation.
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-09-20, therapy summary)
+
+SAFETY PLAN
+[F06] Safety plan in place since 2026-05-14. Warning signs: withdrawing, skipping meals. Coping: a walk, calling a sister. Crisis line 988. No suicidal ideation reported at the 2026-09-20 review.
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-09-20, safety plan review)
+
+HISTORY
+[F07] No prior psychiatric hospitalization. No known drug allergies.
+      (clinician-sourced: Dr. A. Example, university counseling center, 2026-03-02, intake note)
+
+WHAT JORDAN NOTICES
+[F08] Mornings are hardest. Concentration improves after about 10 am.
+      (patient-reported: Jordan, 2026-10-15)
+[F09] Sleep drops to about five hours during exam weeks.
+      (patient-reported: Jordan, 2026-10-15, entered by Jordan's sister, confirmed by Jordan)
+[F10] Stopped sertraline for two weeks in August and restarted. Told the nurse practitioner on 2026-09-01.
+      (patient-reported: Jordan, 2026-10-15)
+
+UNKNOWN
+[F11] UNKNOWN: Whether the counseling center has sent records to the community clinic.
+      (unknown)
+[F12] UNKNOWN: Whether the nurse practitioner recorded the August gap in sertraline.
+      (unknown)
+
+LEARNING SUPPORT
+[F13] Extended time on exams during difficult weeks, and a quiet testing room.
+      (patient-reported: Jordan, 2026-10-15)
+[F14] Flexibility on attendance for a standing appointment on Tuesdays at 2 pm.
+      (patient-reported: Jordan, 2026-10-15)
+[F15] One deadline at a time where possible, with written instructions.
+      (patient-reported: Jordan, 2026-10-15)
+
+WORKPLACE SUPPORT
+[F16] A 10 am start rather than 8 am.
+      (patient-reported: Jordan, 2026-10-15)
+[F17] Written instructions for multi-step tasks and one short check-in per day.
+      (patient-reported: Jordan, 2026-10-15)
+[F18] A quiet place for a ten-minute break when needed.
+      (patient-reported: Jordan, 2026-10-15)
